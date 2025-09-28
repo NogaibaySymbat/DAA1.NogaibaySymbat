@@ -12,10 +12,10 @@ As part of the first assignment for the Design and Analysis of Algorithms course
 
 Implementation details
 -----
-MergeSort — classic recursive merge sort (top-down).--
-QuickSort — quick sort with array partitioning using the Lomuto scheme (pivot — last element).--
-QuickSelect — selection of the k-th element using the same partition function.--
-Closest Pair of Points — a naive O(n²) implementation that iterates through all pairs of points to demonstrate how counters work.--
+MergeSort - classic recursive merge sort (top-down).
+QuickSort — quick sort with array partitioning using the Lomuto scheme (pivot — last element).
+QuickSelect — selection of the k-th element using the same partition function.
+Closest Pair of Points — a naive O(n²) implementation that iterates through all pairs of points to demonstrate how counters work.
 
 The project has its own utilities:
 -----
