@@ -12,17 +12,17 @@ As part of the first assignment for the Design and Analysis of Algorithms course
 
 Implementation details
 -----
-MergeSort — classic recursive merge sort (top-down).
-QuickSort — quick sort with array partitioning using the Lomuto scheme (pivot — last element).
-QuickSelect — selection of the k-th element using the same partition function.
-Closest Pair of Points — a naive O(n²) implementation that iterates through all pairs of points to demonstrate how counters work.
+MergeSort — classic recursive merge sort (top-down).--
+QuickSort — quick sort with array partitioning using the Lomuto scheme (pivot — last element).--
+QuickSelect — selection of the k-th element using the same partition function.--
+Closest Pair of Points — a naive O(n²) implementation that iterates through all pairs of points to demonstrate how counters work.--
 
 The project has its own utilities:
 -----
-MetricsCollector combines a comparison counter and a recursion depth tracker.
-ArrayUtils — random array generation, swap, sorting verification.
-GeometryUtils — calculation of distances between points.
-Partition — a general partitioning method for QuickSort and QuickSelect.
+MetricsCollector combines a comparison counter and a recursion depth tracker.--
+ArrayUtils — random array generation, swap, sorting verification.--
+GeometryUtils — calculation of distances between points.--
+Partition — a general partitioning method for QuickSort and QuickSelect.--
 
 ---- 
 
@@ -68,5 +68,5 @@ Closest Pair (naive) confirms quadratic complexity: the number of comparisons gr
 
 Conclusion
 ----
-During this assignment IЖ implemented four algorithms: MergeSort, QuickSort, QuickSelect, and Closest Pair of Points; developed a metric system to measure the number of comparisons and the maximum recursion depth; wrote JUnit 5 tests to verify correctness; ran performance measurements and confirmed the expected behavior: MergeSort and QuickSort scale as O(n log n), QuickSelect runs in O(n) on average, and Closest Pair follows O(n²). This work helped me better understand the practical side of algorithm analysis, taught me how to measure key performance characteristics, and compare them with theoretical complexity.
+During this assignment I implemented four algorithms: MergeSort, QuickSort, QuickSelect, and Closest Pair of Points; developed a metric system to measure the number of comparisons and the maximum recursion depth; wrote JUnit 5 tests to verify correctness; ran performance measurements and confirmed the expected behavior: MergeSort and QuickSort scale as O(n log n), QuickSelect runs in O(n) on average, and Closest Pair follows O(n²). This work helped me better understand the practical side of algorithm analysis, taught me how to measure key performance characteristics, and compare them with theoretical complexity.
 
